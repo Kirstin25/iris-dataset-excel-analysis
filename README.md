@@ -1,42 +1,50 @@
-# Iris Dataset – Excel Data Analysis
+# Iris Dataset – Exploratory Data Analysis in Excel
 
 ## Overview
 
-This project explores the Iris dataset using Microsoft Excel, focusing on descriptive statistics, data visualisation and identifying differences between iris species.
+An exploratory analysis of the Iris dataset using Microsoft Excel, focusing on differences in petal measurements between three Iris species.
+
+The project includes descriptive statistics, visualisations and an Excel dashboard.
 
 ## Dataset
 
-The dataset contains 150 observations across three iris species: Setosa, Versicolor and Virginica.
+The dataset contains 150 flowers from three species: Setosa, Versicolor and Virginica (50 observations per species).
 
-Each observation includes four measurements:
-- Sepal length (cm)
-- Sepal width (cm)
-- Petal length (cm)
-- Petal width (cm)
+Four measurements are available: sepal length, sepal width, petal length and petal width. This analysis focuses on petal measurements.
 
-## Tools Used
+## Tools and Techniques
 
 - Microsoft Excel
+- PivotTables and PivotCharts
+- Dynamic-array formulas
+- Box plots and scatterplots
+- Pearson correlation
+- Dashboard design and slicers
 
-## Objectives
+## Key Findings
 
-- [ ] Explore and clean the dataset
-- [ ] Calculate descriptive statistics
-- [ ] Compare measurements between species
-- [ ] Create charts to identify patterns
-- [ ] Summarise key findings
+- **Average petal length:** Setosa 1.46 cm, Versicolor 4.26 cm and Virginica 5.55 cm.
+- **Variation:** Setosa has relatively little variation in petal length. Versicolor and Virginica have greater variation and some overlapping measurements.
+- **Correlation:** Petal length and width have a strong positive correlation across all 150 flowers (Pearson's r ≈ 0.96).
+
+## Limitations
+
+This is a descriptive analysis, not a classification model. Sepal measurements were not analysed, and the overall correlation may partly reflect differences between species.
 
 ## Data Source and Licence
 
-- **Source:** UCI Machine Learning Repository
-- **Creator:** R. A. Fisher (1936)
-- **Date Accessed:** 8 November 2026
-- **Dataset:** https://archive.ics.uci.edu/dataset/53/iris
+- **Source:** [UCI Machine Learning Repository – Iris](https://archive.ics.uci.edu/dataset/53/iris)
+- **Original research:** R. A. Fisher (1936)
 - **DOI:** https://doi.org/10.24432/C56C76
-- **Licence:** [Creative Commons Attribution 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/)
+- **Licence:** [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)
+- **Accessed:** 8 November 2026
 
-Any modifications to the original dataset will be documented.
+## Project Files
 
-## Project Status
+- `Iris_Analysis.xlsx` – Excel workbook and dashboard
+- `Iris_Dashboard.png` – Dashboard screenshot (planned)
+- `Iris_Data_Story.pdf` – Illustrated analysis (planned)
 
-In progress.
+## Status
+
+Excel analysis and dashboard completed. Data story in preparation.
